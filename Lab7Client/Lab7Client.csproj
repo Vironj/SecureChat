@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RocksDbNative" Version="6.2.2" />
+    <PackageReference Include="RocksDbSharp" Version="6.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab2">
+      <HintPath>..\..\Lab2\Lab2\bin\Debug\netcoreapp2.1\Lab2.dll</HintPath>
+    </Reference>
+    <Reference Include="magmaOFB">
+      <HintPath>..\..\Lab1,4\magmaOFB\bin\Debug\netcoreapp2.1\magmaOFB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
